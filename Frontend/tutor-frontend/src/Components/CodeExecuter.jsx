@@ -18,7 +18,7 @@ function CodeExecuter() {
                     rows={5}
                     className="w-full p-2 border"
                 />
-                <button onClick={handleRunCode} className="mt-2 p-2 bg-blue-500 text-white">Run Code</button>
+                <button onClick={handleRunCode} className="mt-2 p-2 bg-blue-500 text-white cursor-pointer">Run Code</button>
                 <pre className="mt-4 p-2 bg-gray-100">{output}</pre>
             </div>
         </>
