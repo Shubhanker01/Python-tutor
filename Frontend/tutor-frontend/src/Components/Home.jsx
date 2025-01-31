@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import CodeExecuter from './CodeExecuter'
 
 function Home() {
@@ -7,7 +8,10 @@ function Home() {
             <div className="text-center p-10 bg-blue-200">
                 <h1 className="text-4xl font-bold text-gray-800">Learn Python the Fun Way with AI!</h1>
                 <p className="text-lg text-gray-600 mt-2">An interactive AI tutor that makes coding easy for kids.</p>
-                <button className="mt-4 px-6 py-2 bg-green-500 text-white text-lg rounded-lg">Start Learning Now</button>
+                <div className='mt-4'>
+                    <Link to='/main-app' className="mt-4 px-6 py-2 bg-green-500 text-white text-lg rounded-lg">Start Learning Now</Link>
+                </div>
+
             </div>
 
             <div className="grid grid-cols-2 gap-6 p-8">
@@ -43,7 +47,10 @@ function Home() {
 
             <div className="text-center p-6 bg-yellow-300 rounded-lg">
                 <h2 className="text-2xl font-bold">Join 1,000+ kids learning Python with AI! 🚀</h2>
-                <button className="mt-4 px-6 py-3 bg-green-600 text-white text-lg rounded-lg">Start Learning for Free</button>
+                <div className='mt-4'>
+                    <Link to='/main-app' className="mt-8 px-6 py-3 bg-green-600 text-white text-lg rounded-lg">Start Learning for Free</Link>
+                </div>
+
             </div>
 
         </>
