@@ -3,11 +3,15 @@ export const question = [
 ]
 
 
+export const option = [
+    [
+        "cout",
+        "console.log",
+        "print",
+        "printLine"
+    ]
+]
+
 export const answer = [
-    {
-        "opt1": "cout",
-        "opt2": "console.log",
-        "opt3": "print",
-        "opt4": "printLine"
-    }
+    "print"
 ]
