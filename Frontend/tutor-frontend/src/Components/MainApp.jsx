@@ -2,6 +2,7 @@ import React from 'react'
 import PythonSandbox from './PythonSandbox'
 import Quiz1 from './Quiz/Quiz1'
 import { question, option, answer } from '../utils/quesAndOption'
+import MiniChatApp from './MiniChatApp'
 
 function MainApp() {
     return (
@@ -47,7 +48,7 @@ function MainApp() {
                 <h2 className='mt-4 mb-4 text-xl text-center font-bold'>A follow up short little quiz!! Hope you get the right answer</h2>
                 <Quiz1 question={question[0]} options={option[0]} answer={answer[0]} />
             </div>
-
+            <MiniChatApp />
 
         </>
     )
