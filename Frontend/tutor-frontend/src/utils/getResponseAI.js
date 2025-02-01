@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const getResponseAI = async (ques) => {
     try {
-        let response = await axios.post('http://localhost:3000/api/v1/chat', {
+        let response = await axios.post('https://python-tutor-backend-jxxo.onrender.com/api/v1/chat', {
             message: ques
         }
         )
