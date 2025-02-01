@@ -38,10 +38,12 @@ function MainApp() {
             </div>
 
             <div className='mt-4'>
-                <h2 className="text-xl font-bold">👨‍💻 Now it your time to write code </h2>
+                <h2 className="text-xl text-center font-bold">👨‍💻 Now it your time to write code </h2>
                 <PythonSandbox />
             </div>
-
+            <div className='mt-4'>
+                <h2 className='text-xl text-center font-bold'>A follow up short little quiz!! Hope you get the right answer</h2>
+            </div>
 
 
         </>
