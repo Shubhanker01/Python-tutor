@@ -3,7 +3,9 @@ import './App.css'
 import Home from './Components/Home'
 import MainApp from './Components/MainApp'
 import Module2 from './Components/Modules/Module2'
-
+import Module3 from './Components/Modules/Module3'
+import Module4 from './Components/Modules/Module4'
+import Module5 from './Components/Modules/Module5'
 
 function App() {
 
@@ -14,6 +16,9 @@ function App() {
         <Route path='/main-app'>
           <Route index element={<MainApp />}></Route>
           <Route path='module2' element={<Module2 />}></Route>
+          <Route path='module3' element={<Module3 />}></Route>
+          <Route path='module4' element={<Module4 />}></Route>
+          <Route path='module5' element={<Module5/>}></Route>
         </Route>
       </Routes>
     </>

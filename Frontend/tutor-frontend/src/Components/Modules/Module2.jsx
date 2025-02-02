@@ -65,7 +65,7 @@ print(a % b)  # Modulus`}
                 {/* Navigation Buttons */}
                 <div className="mt-6 flex justify-between">
                     <Link to='/main-app' className="bg-blue-600 px-8 py-2 rounded-lg hover:bg-blue-700">⬅ Previous</Link>
-                    <button className="bg-green-600 px-8 py-2 rounded-lg hover:bg-green-700">Next ➡</button>
+                    <Link to='/main-app/module3' className="bg-green-600 px-8 py-2 rounded-lg hover:bg-green-700">Next ➡</Link>
                 </div>
             </div>
             <MiniChatApp />

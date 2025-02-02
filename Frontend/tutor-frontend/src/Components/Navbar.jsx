@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Menu, Package, SquareRadical } from 'lucide-react'
+import { Menu, Package, SquareRadical, Variable, Split,Repeat2 } from 'lucide-react'
 import { NavLink } from 'react-router-dom'
 
 function Navbar() {
@@ -34,7 +34,36 @@ function Navbar() {
 
                         </NavLink>
                     </div>
+                    <div className='mt-4'>
+                        <NavLink to='/main-app/module3' className={({ isActive }) =>
+                            isActive ? "text-blue-800 bg-gray-200 mx-2 flex rounded-md p-2" : "text-black mx-2 flex"
+                        }><Variable size={24} />
+                            <p className='ml-2'>
+                                Variables
+                            </p>
 
+                        </NavLink>
+                    </div>
+                    <div className='mt-4'>
+                        <NavLink to='/main-app/module4' className={({ isActive }) =>
+                            isActive ? "text-blue-800 bg-gray-200 mx-2 flex rounded-md p-2" : "text-black mx-2 flex"
+                        }><Split size={24} />
+                            <p className='ml-2'>
+                                Conditions
+                            </p>
+
+                        </NavLink>
+                    </div>
+                    <div className='mt-4'>
+                        <NavLink to='/main-app/module5' className={({ isActive }) =>
+                            isActive ? "text-blue-800 bg-gray-200 mx-2 flex rounded-md p-2" : "text-black mx-2 flex"
+                        }><Repeat2 size={24} />
+                            <p className='ml-2'>
+                                Loops
+                            </p>
+
+                        </NavLink>
+                    </div>
                 </nav>
             </div>
         </>
