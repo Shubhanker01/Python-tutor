@@ -24,14 +24,14 @@ function ChatModal() {
 
     return (
         <>
-            <div className="fixed bottom-8 right-22 bg-gray-900 text-white w-[800px] h-[90%] p-4 rounded-xl shadow-lg border border-gray-700">
+            <div className="fixed bottom-8 right-22 bg-gray-900 text-white sm:w-[800px] w-[80%] sm:h-[90%] h-[95%] p-4 rounded-xl shadow-lg border border-gray-700 z-40">
                 <h3 className="text-lg font-bold">🤖 AI Chat Your Personal Tutor</h3>
                 <p className="text-gray-400 text-sm">Ask anything about Python!</p>
 
 
                 {/* <UserChat question="what is python" />
                 <AIBot message="It is a language" /> */}
-                <div className='absolute w-[90%] h-[350px] right-22 overflow-auto scroll-auto left-8'>
+                <div className='absolute w-[90%] sm:h-[350px] h-[50%] right-22 overflow-auto scroll-auto left-8'>
                     {
                         chats.length !== 0 ?
                             chats.map((chat) => {

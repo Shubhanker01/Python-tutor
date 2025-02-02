@@ -12,7 +12,7 @@ function Module4() {
             <Navbar />
             <div className="bg-gray-100 text-black min-h-screen p-6">
                 {/* Module Heading */}
-                <h1 className="text-3xl text-gray-800 text-center font-bold mb-4">⚖️ Module 4: Conditional Statements</h1>
+                <h1 className="sm:text-3xl text-lg text-gray-800 text-center font-bold mb-4">⚖️ Module 4: Conditional Statements</h1>
 
                 {/* Introduction */}
                 <p className="text-lg text-gray-800 text-center text-gray-300 mb-6">
@@ -110,7 +110,7 @@ else:
                 {/* Navigation Buttons */}
                 <div className="mt-6 flex justify-between">
                     <Link to="/main-app/module3" className="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700">⬅ Previous</Link>
-                    <Link className="bg-green-600 px-4 py-2 rounded-lg hover:bg-green-700">Next ➡</Link>
+                    <Link to="/main-app/module5" className="bg-green-600 px-4 py-2 rounded-lg hover:bg-green-700">Next ➡</Link>
                 </div>
             </div>
             <MiniChatApp />

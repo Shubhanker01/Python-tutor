@@ -16,7 +16,13 @@ export const question = [
     "Python support how many types of loops?",
     "Which loop is used to iterate over a sequence?",
     "Which statement exists the loop completely?",
-    "Which statement skips over the current iteration of loop"
+    "Which statement skips over the current iteration of loop",
+    "Which keyword is used to create a function?",
+    "Suppose we create a function greet how are we going to call it in our program?",
+    "What are parameters?",
+    "Which keyword is used to return a value?",
+    "In which one of following function parameter is present?",
+    "Which one of the following function takes a default parameter?"
 ]
 
 
@@ -120,6 +126,39 @@ export const option = [
         "for",
         "continue",
         "if"
+    ],
+    [
+        "while",
+        "if",
+        "def",
+        "create"
+    ],
+    [
+        "function greet()",
+        "fun greet()",
+        "call greet()",
+        "greet()"
+    ],
+    [
+        "Values that are passed inside function",
+        "Function that is called",
+        "Value that is null"
+    ],
+    [
+        "return",
+        "give",
+        "provide",
+        "ret value"
+    ],
+    [
+        "def greet(name)",
+        "def greet()",
+        "none"
+    ],
+    [
+        "def greet(name='name')",
+        "def greet(name)",
+        "none"
     ]
 ]
 
@@ -141,5 +180,11 @@ export const answer = [
     "2",
     "for",
     "break",
-    "continue"
+    "continue",
+    "def",
+    "greet()",
+    "Values that are passed inside function",
+    "return",
+    "def greet(name)",
+    "def greet(name='name')"
 ]

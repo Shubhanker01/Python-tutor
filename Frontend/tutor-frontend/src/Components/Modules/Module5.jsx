@@ -12,7 +12,7 @@ function Module5() {
             <Navbar />
             <div className="bg-gray-100 text-black min-h-screen p-6">
                 {/* Module Heading */}
-                <h1 className="text-3xl text-center font-bold mb-4">🔄 Module 5: Loops in Python</h1>
+                <h1 className="sm:text-3xl text-lg text-center font-bold mb-4">🔄 Module 5: Loops in Python</h1>
 
                 {/* Introduction */}
                 <p className="text-lg text-center text-gray-800 mb-6">
@@ -102,7 +102,7 @@ for i in range(1, 10):
                 {/* Navigation Buttons */}
                 <div className="mt-6 flex justify-between">
                     <Link to="/main-app/module4" className="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700">⬅ Previous</Link>
-                    <Link className="bg-green-600 px-4 py-2 rounded-lg hover:bg-green-700">Next ➡</Link>
+                    <Link to="/main-app/module6" className="bg-green-600 px-4 py-2 rounded-lg hover:bg-green-700">Next ➡</Link>
                 </div>
             </div>
             <MiniChatApp />

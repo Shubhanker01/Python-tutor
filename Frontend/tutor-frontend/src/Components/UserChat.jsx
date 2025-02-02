@@ -8,7 +8,7 @@ function UserChat({ question }) {
                     U
                 </div>
                 {/* Message Bubble */}
-                <div className="bg-blue-600 text-white px-4 py-2 rounded-xl max-w-xs shadow-md">
+                <div className="bg-blue-600 lg:text-sm text-white px-4 py-2 rounded-xl max-w-xs shadow-md">
                     {question}
                 </div>
 

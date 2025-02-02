@@ -7,7 +7,7 @@ function MiniChatApp() {
 
     return (
         <div>
-            <button onClick={() => setModal(!modal)} className='fixed bottom-24 right-6 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition flex items-center justify-center'>
+            <button onClick={() => setModal(!modal)} className='fixed bottom-18 right-6 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition flex items-center justify-center'>
                 <MessageCircle size={24} />
             </button>
             {

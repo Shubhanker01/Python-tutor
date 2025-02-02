@@ -12,7 +12,7 @@ function Module2() {
             <Navbar />
             <div className="bg-gray-100 text-black min-h-screen p-6">
                 {/* Module Heading */}
-                <h1 className="text-3xl text-center font-bold mb-4">🔢 Module 2: Introduction to Operators</h1>
+                <h1 className="sm:text-3xl text-lg text-center font-bold mb-4">🔢 Module 2: Introduction to Operators</h1>
 
                 {/* Introduction */}
                 <p className="text-lg text-center text-gray-700 mb-6">

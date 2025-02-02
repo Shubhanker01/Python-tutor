@@ -10,7 +10,7 @@ function AIBot({ message }) {
                 </div>
 
                 {/* AI Message Bubble */}
-                <div className="bg-gray-700 text-white px-4 py-2 rounded-xl max-w-lg shadow-md">
+                <div className="bg-gray-700 lg:text-sm text-white px-4 py-2 rounded-xl max-w-lg shadow-md">
                     {message}
                 </div>
             </div>

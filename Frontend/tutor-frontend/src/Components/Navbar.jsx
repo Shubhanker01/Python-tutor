@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Menu, Package, SquareRadical, Variable, Split,Repeat2 } from 'lucide-react'
+import { Menu, Package, SquareRadical, Variable, Split, Repeat2, SquareFunction } from 'lucide-react'
 import { NavLink } from 'react-router-dom'
 
 function Navbar() {
@@ -60,6 +60,16 @@ function Navbar() {
                         }><Repeat2 size={24} />
                             <p className='ml-2'>
                                 Loops
+                            </p>
+
+                        </NavLink>
+                    </div>
+                    <div className='mt-4'>
+                        <NavLink to='/main-app/module6' className={({ isActive }) =>
+                            isActive ? "text-blue-800 bg-gray-200 mx-2 flex rounded-md p-2" : "text-black mx-2 flex"
+                        }><SquareFunction size={24} />
+                            <p className='ml-2'>
+                                Functions
                             </p>
 
                         </NavLink>

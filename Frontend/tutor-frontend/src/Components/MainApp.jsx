@@ -10,7 +10,7 @@ function MainApp() {
     return (
         <>
             <Navbar />
-            <h1 className='text-gray-800 py-4 text-center text-4xl font-bold'>Hey kids this is how you get started</h1>
+            <h1 className='text-gray-800 py-8 px-2 text-center sm:text-4xl text-lg  font-bold'>Hey kids this is how you get started</h1>
 
             <div className="text-center p-10 bg-blue-200 rounded-lg mt-4">
                 <h1 className="text-4xl font-bold text-gray-800">🐍 Welcome to Python Programming!</h1>
