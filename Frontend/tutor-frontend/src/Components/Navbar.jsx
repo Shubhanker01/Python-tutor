@@ -6,10 +6,10 @@ function Navbar() {
     const [open, isOpen] = useState(false)
     return (
         <>
-            <button onClick={() => isOpen(!open)} className="mb-6 fixed left-4 top-4 z-10">
+            <button onClick={() => isOpen(!open)} className="mb-6 fixed left-4 top-4 z-40">
                 <Menu size={32} />
             </button>
-            <div className={`fixed top-0 bg-gray-300 text-black h-screen p-4 transition-all duration-300 ${open ? "w-48" : "w-0 hidden"}`}>
+            <div className={`fixed z-30 top-0 bg-gray-300 text-black h-screen p-4 transition-all duration-300 ${open ? "w-48" : "w-0 hidden"}`}>
 
 
                 {/* Navigation Links */}
