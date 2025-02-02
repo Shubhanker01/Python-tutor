@@ -18,7 +18,7 @@ function PythonSandbox() {
     }
     return (
         <>
-            <div className="bg-gray-900 text-white p-6 rounded-xl shadow-lg max-w-5xl mx-auto">
+            <div className="bg-gray-900 text-white p-6 rounded-xl shadow-lg max-w-4xl mx-auto">
                 <h2 className="text-2xl font-bold mb-4">🐍 Python Code Sandbox</h2>
 
                 {/* Monaco Editor (Dark Theme) */}

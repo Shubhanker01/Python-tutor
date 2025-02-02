@@ -15,7 +15,7 @@ function Quiz1({ question, options, answer }) {
     }
     return (
         <>
-            <div className='bg-gray-900 text-white p-6 rounded-xl shadow-lg max-w-2xl mx-auto'>
+            <div className='bg-gray-900 text-white p-6 rounded-xl shadow-lg max-w-2xl mx-auto mt-4'>
                 <h2 className="text-xl font-bold mb-4">{question}</h2>
                 <div className='space-y-3'>
                     {

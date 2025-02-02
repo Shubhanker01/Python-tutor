@@ -3,11 +3,14 @@ import PythonSandbox from './PythonSandbox'
 import Quiz1 from './Quiz/Quiz1'
 import { question, option, answer } from '../utils/quesAndOption'
 import MiniChatApp from './MiniChatApp'
+import Navbar from './Navbar'
+import { Link } from 'react-router-dom'
 
 function MainApp() {
     return (
         <>
-            <h1 className='text-gray-800 text-center text-4xl font-bold'>Hey kids this is how you get started</h1>
+            <Navbar />
+            <h1 className='text-gray-800 py-4 text-center text-4xl font-bold'>Hey kids this is how you get started</h1>
 
             <div className="text-center p-10 bg-blue-200 rounded-lg mt-4">
                 <h1 className="text-4xl font-bold text-gray-800">🐍 Welcome to Python Programming!</h1>
@@ -48,6 +51,10 @@ function MainApp() {
                 <h2 className='mt-4 mb-4 text-xl text-center font-bold'>A follow up short little quiz!! Hope you get the right answer</h2>
                 <Quiz1 question={question[0]} options={option[0]} answer={answer[0]} />
             </div>
+            <div className='mt-6 flex justify-end'>
+                <Link to="/main-app/module2" className="bg-green-600 px-8 py-2 rounded-lg hover:bg-green-700 mx-4">Next ➡</Link>
+            </div>
+
             <MiniChatApp />
 
         </>
