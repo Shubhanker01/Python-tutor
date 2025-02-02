@@ -31,7 +31,7 @@ function ChatModal() {
 
                 {/* <UserChat question="what is python" />
                 <AIBot message="It is a language" /> */}
-                <div className='absolute w-[90%] sm:h-[350px] h-[50%] right-22 overflow-auto scroll-auto left-8'>
+                <div className='absolute w-[90%] sm:h-[350px] h-[60%] right-22 overflow-auto scroll-auto overscroll-auto left-8'>
                     {
                         chats.length !== 0 ?
                             chats.map((chat) => {
